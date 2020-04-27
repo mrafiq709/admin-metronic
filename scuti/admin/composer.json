@@ -1,0 +1,16 @@
+{
+    "name": "dungvn/admin",
+    "description": "Admin metronic",
+    "authors": [
+        {
+            "name": "dungvn",
+            "email": "dungvn@scuti.asia"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Scuti\\Admin\\": "src/"
+        }
+    }
+}
