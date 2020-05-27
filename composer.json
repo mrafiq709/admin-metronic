@@ -14,5 +14,16 @@
         "psr-4": {
             "Scuti\\Admin\\Metronic\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Scuti\\Admin\\Metronic\\AdminServiceProvider"
+            ],
+            "aliases": {
+                "ScutiMetronic": "Scuti\\Admin\\Metronic\\AdminServiceProvider"
+            }
+        }
+    },
+    "minimum-stability": "stable"
 }
