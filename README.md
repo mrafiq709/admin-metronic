@@ -1,29 +1,21 @@
 # Scuti/AdminMetronic
-This is a form element pre-written with adminlte library of https://keenthemes.com/metronic/.
+This is admin template base on Admin Metronic theme (https://keenthemes.com/metronic/).
 
 # How to install
 
-### Step 1: install
+### Step 1: Install via composer
 
 ```php
 composer require scuti/admin-metronic
 ```
 
-### Step 2: add service provider
-
-In config/app.php, add following line to provider
-
-```php
-Scuti\Admin\Metronic\AdminServiceProvider::class,
-```
-
-### Step 3: Use the package Admin Metronic
+### Step 2: Publish metronic admin theme
 
 ```php
 php artisan vendor:publish --tag=admin-metronic --force
 ```
 
-### Step 4: In routes/web.php
+### Step 3: Make a route to display show admin and enjoy!
 
 ```
 Route::get('/admin', function () {
